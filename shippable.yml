@@ -32,7 +32,7 @@ build:
     - echo "build success"
   on_failure:
     - echo "build failed"  
-integerations:    
+integrations:   
   notifications:
     - integrationName: ship_slack
       type: slack
