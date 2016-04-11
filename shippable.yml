@@ -7,7 +7,7 @@ env:
   global:
     - FOO=FUBU
 
-  matrix:
+  matrix:  
     - M1=ONE
 
 build:
